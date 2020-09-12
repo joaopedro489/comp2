@@ -1,4 +1,4 @@
-package br.ufrj.dcc.comp2.ple.joaoPedro.trab2;
+package br.ufrj.dcc.comp2.ple.joaoPedro.lista1.trab2;
 import java.util.*;
 /**
  * @author      João Pedro Silva
@@ -20,7 +20,9 @@ public class Word{
   public static void main(String[] args) {
     ArrayList<String> words = new ArrayList<String>();
     Scanner scanner = new Scanner(System.in);
-    while(scanner.hasNextLine()){
+    while(true){
+      System.out.println("Digite a palavra");
+      System.out.println("Para parar de digitar, aperte enter");
       String linha = scanner.nextLine();
       if(linha.equals("")){
         break;
