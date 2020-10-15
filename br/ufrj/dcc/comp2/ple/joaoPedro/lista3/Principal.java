@@ -43,7 +43,6 @@ public class Principal {
         if(entrada.equals("")){
             Estatisticas.ordenarWeb(web.dados);
         }
-        StringBuilder htmlStringBuilder=new StringBuilder();
         Estatisticas.ordenarWeb(web.dados);
         if(entrada[0].equals("")){
             List<HashMap<String,String>> webFiltrada = Estatisticas.filtrarDadosWebBrasil(web.dados);
